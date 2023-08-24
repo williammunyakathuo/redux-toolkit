@@ -20,7 +20,7 @@ const icecreamSlice = createSlice({
     },
     extraReducers: (builder) =>{
         builder.addCase(cakeActions.ordered,( state) =>{
-            state.numOfIcecream--
+            state.numOfIcecream-- 
         })
     }
 })
